@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aswin's Portfolio</title>
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+    
+    <nav class="nav-container">
+        <button class="hamburger" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-menu">
+            <li><a href="#home"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#skills"><i class="fas fa-tools"></i>Skills</a></li>
+            <li><a href="#projects"><i class="fas fa-project-diagram"></i>Projects</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="main-content">
+        <section id="home" class="section">
+            <img src="portfolio.jpg" alt="Profile" class="profile-image">
+            <h1>ASWIN RAJ P</h1>
+            <p>Front-End Web Developer</p><br>
+            <a href="Aswin_front-end-developer_resume.pdf" download="Aswin_Raj_Resume" class="bt-gr"><i class="fa-duotone fa-regular fa-file fa-2x"></i></a>
+        </section>
+        <section id="skills" class="section">
+            <h2>Design-Skills</h2>
+            <div class="card-container">
+                <div class="card">
+                    <i class="fab fa-figma fa-3x"></i>
+                    <h3>Figma</h3>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-palette fa-3x"></i>
+                    <h3>Adobe Photoshop</h3>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-vector-square fa-3x"></i>
+                    <h3>Adobe Illustrator</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="card-container">
+                <div class="card">
+                    <i class="fab fa-html5 fa-3x"></i>
+                    <h3>HTML5</h3>
+                    <p>Advanced proficiency in semantic HTML</p>
+                </div>
+                <div class="card">
+                    <i class="fab fa-css3-alt fa-3x"></i>
+                    <h3>CSS3</h3>
+                    <p>Responsive design and animations</p>
+                </div>
+                <div class="card">
+                    <i class="fab fa-js fa-3x"></i>
+                    <h3>JavaScript</h3>
+                    <p>Modern ES6+ techniques</p>
+                </div>
+                <div class="card">
+                    <i class="fab fa-react fa-3x"></i>
+                    <h3>React</h3>
+                    <p>Component-based development</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="card-container">
+                <div class="card">
+                    <i class="fas fa-laptop-code fa-3x"></i>
+                    <h3>E-Commerce Webssite</h3>
+                    <p>A fully functional e-commerce site with a product catalog and shopping cart.</p>
+                    <div><a href="https://aswin-raj98.github.io/ecommerce/"> <i class="fa fa-link fa-2x" aria-hidden="true"></i> </a></div>
+                </div>
+                <div class="card">
+                    <i class="fas fa-laptop-code fa-3x"></i>
+                    <h3>Tribute Page</h3>
+                    <p>A tribute website dedicated to a renowned scientist, showcasing their life.</p>
+                    <div><a href="https://aswin-raj98.github.io/tribute/"> <i class="fa fa-link fa-2x" aria-hidden="true"></i> </a></div>
+                </div>
+                <div class="card">
+                    <i class="fas fa-laptop-code fa-3x"></i>
+                    <h3>C-Documentation</h3>
+                    <p>A comprehensive technical documentation website for the C programming language.</p>
+                    <div><a href="https://aswin-raj98.github.io/c-documentation/"> <i class="fa fa-link fa-2x" aria-hidden="true"></i> </a></div>
+                </div>
+                <div class="card">
+                    <i class="fas fa-laptop-code fa-3x"></i>
+                    <h3>Weather Website</h3>
+                    <p>A dynamic weather forecast website that provides real-time weather data for any location.</p>
+                    <div><a href="https://aswin-raj98.github.io/weather/"> <i class="fa fa-link fa-2x" aria-hidden="true"></i> </a></div>
+                </div>
+                <div class="card">
+                    <i class="fas fa-laptop-code fa-3x"></i>
+                    <h3>Calculator</h3>
+                    <p>A simple and interactive calculator for performing basic arithmetic operations.</p>
+                    <div><a href="https://aswin-raj98.github.io/calculator/"> <i class="fa fa-link fa-2x" aria-hidden="true"></i> </a></div>
+                </div>
+                <div class="card">
+                    <i class="fas fa-laptop-code fa-3x"></i>
+                    <h3>Live-Clock</h3>
+                    <p>A real-time clock application that displays the current time dynamically.</p>
+                    <div><a href="https://aswin-raj98.github.io/clock/"> <i class="fa fa-link fa-2x" aria-hidden="true"></i> </a></div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSeVveMIHmOCzWp8-OgzMn5soembdHzsXoo7Nts90iknExWK7Q/formResponse" method="post">
+                <input name="entry.1922993958" type="text" placeholder="Name" required>
+                <input name="entry.1052848590" type="email" placeholder="Email" required>
+                <textarea name="entry.1581988797" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button><br>
+                
+            </form>
+            
+        </section>
+        
+    </div>
+    <footer class="footer">
+        <p>© 2024 Aswin Raj. Aspiring Front-End Developer.</p>
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/aswin-raj-a50032339" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/aswin-raj98/" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </footer>
+    
+
+    <script src="demo.js"></script>
+</body>
+</html>
